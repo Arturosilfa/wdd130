@@ -221,3 +221,112 @@ footer nav img {
 footer nav img:hover {
     transform: scale(1.1);
 }
+
+/* Contact Info Section */
+.contact-info {
+    background-color: var(--accent2-color);
+    padding: 20px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.contact-info h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-family: 'Parkinsans', sans-serif;
+    font-size: 16px;
+}
+
+/* Employee Profiles */
+.employee-profiles {
+    background-color: var(--accent3-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.profile-gallery figure {
+    text-align: center;
+    width: 150px;
+}
+
+.profile-gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-gallery figcaption {
+    font-family: 'Parkinsans', sans-serif;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: var(--accent2-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    font-family: 'Parkinsans', sans-serif;
+    text-align: left;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: var(--secondary-color);
+    color: var(--accent3-color);
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: var(--primary-color);
+}
+
+/* Google Map */
+.map {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.map iframe {
+    width: 100%;
+    border-radius: 10px;
+}
+
